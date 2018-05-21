@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.raywenderlich.rocketlaunch"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.raywenderlich.rocketlaunch.ListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.raywenderlich.rocketlaunch.animationactivities.NoAnimationActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.raywenderlich.rocketlaunch.animationactivities.LaunchRocketValueAnimatorAnimationActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.raywenderlich.rocketlaunch.animationactivities.RotateRocketAnimationActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.raywenderlich.rocketlaunch.animationactivities.AccelerateRocketAnimationActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.raywenderlich.rocketlaunch.animationactivities.LaunchRocketObjectAnimatorAnimationActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.raywenderlich.rocketlaunch.animationactivities.ColorAnimationActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.raywenderlich.rocketlaunch.animationactivities.LaunchAndSpinAnimatorSetAnimatorActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.raywenderlich.rocketlaunch.animationactivities.LaunchAndSpinViewPropertyAnimatorAnimationActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.raywenderlich.rocketlaunch.animationactivities.FlyWithDogeAnimationActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.raywenderlich.rocketlaunch.animationactivities.WithListenerAnimationActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.raywenderlich.rocketlaunch.animationactivities.FlyThereAndBackAnimationActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.raywenderlich.rocketlaunch.animationactivities.XmlAnimationActivity"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>
